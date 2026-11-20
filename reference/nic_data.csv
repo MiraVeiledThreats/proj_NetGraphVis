@@ -1,0 +1,13 @@
+branch,ip_cidr,name
+HQ,10.10.0.0/16,network_001
+HQ,10.10.1.0/24,network_001_hq_workstations
+HQ,10.10.2.0/24,network_001_hq_servers
+Branch-East,172.16.0.0/16,network_002
+Branch-East,172.16.10.0/24,network_002_branch_workstations
+Branch-East,172.16.20.0/24,network_002_branch_services
+DMZ,192.168.0.0/16,network_003
+DMZ,192.168.50.0/24,network_003_dmz_public
+DMZ,192.168.60.0/24,network_003_dmz_backend
+OT-Plant,10.50.0.0/16,network_004
+OT-Plant,10.50.10.0/24,network_004_ot_control
+OT-Plant,10.50.20.0/24,network_004_ot_engineering
